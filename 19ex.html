@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="19ex.css">
+    <title>19 exercise: Flexbox</title>
+</head>
+<body>
+<!-- Задание 1: Свойство `display`
+1. Создайте 3 `div`-элемента и примените к ним следующие значения свойства `display`:
+   - Первый элемент — `block`
+   - Второй элемент — `inline`
+   - Третий элемент — `flex`
+Понаблюдайте, как изменяется отображение элементов на странице при разных значениях `display`. -->
+   <div class="container1">1st block</div>
+   <br>
+   <div class="container2">2nd block</div>
+   <br> <br>
+   <div class="container3">3rd block</div>
+   <br>
+<!-- Задание 2: Flex-контейнер
+1. Создайте `div`-контейнер с несколькими дочерними элементами.
+2. Примените к контейнеру `display: flex` и посмотрите, как элементы внутри него автоматически выстраиваются в одну строку. -->
+<!-- Задание 3: Свойства `flex-direction`, `flex-wrap`, `flex-flow`
+1. Добавьте к flex-контейнеру из предыдущего задания следующее:
+   - Примените `flex-direction: column`, чтобы расположить элементы в колонку.
+   - Примените `flex-wrap`, чтобы элементы переносились на новую строку при нехватке места.
+   - Используйте сокращённое свойство `flex-flow` для комбинирования направлений и обёртывания. -->
+   <div class="container4">
+      <div class="block1"></div>
+      <div class="block2"></div>
+      <div class="block3"></div>
+   </div>
+   <br>
+<!-- Задание 4: Выравнивание элементов
+1. Используйте flex-контейнер и дочерние элементы. Примените свойства:
+    - `justify-content` для горизонтального выравнивания элементов (например, по центру).
+    - `align-items` для вертикального выравнивания элементов внутри контейнера.
+    - `align-content` для управления выравниванием всех строк в flex-контейнере. -->
+   <div class="container5">
+      <div class="block4"></div>
+      <div class="block5"></div>
+      <div class="block6"></div>
+   </div>
+   <br>
+<!-- Задание 5: Свойства `flex-grow`, `flex-shrink`, `flex-basis` и сокращённое свойство `flex`
+1. Создайте flex-контейнер с тремя элементами.
+2. Примените к каждому элементу разные значения свойств `flex-grow`, `flex-shrink` и `flex-basis`, чтобы управлять их размерами.
+3. Используйте сокращённое свойство `flex`, чтобы задать сразу все параметры для элемента. -->
+   <div class="container6">
+      <div class="block7"></div>
+      <div class="block8"></div>
+      <div class="block9"></div>
+   </div>
+   <br>
+<!-- Задание 6: Практическое задание
+1. Создайте блок с тремя элементами внутри, используя flexbox. Расположите их так:
+    - Первый элемент занимает 50% ширины контейнера.
+    - Второй элемент занимает оставшуюся ширину и автоматически растягивается при увеличении размера контейнера.
+    - Третий элемент всегда остаётся фиксированного размера (например, 100px). -->
+   <div class="container7">
+      <div class="block10"></div>
+      <div class="block11"></div>
+      <div class="block12"></div>
+   </div>
+   <br>
+<!-- Задание 7: Меню навигации с выравниванием по центру
+Создайте горизонтальное меню навигации с использованием Flexbox, в котором ссылки будут выровнены по центру.
+   1. Создайте контейнер для меню и добавьте несколько ссылок (`<a>`).
+   2. Используйте Flexbox, чтобы выровнять ссылки по центру горизонтально и распределить их равномерно.
+   3. Реализуйте это меню и поэкспериментируйте с выравниванием ссылок с помощью свойств `justify-content` и `align-items`. -->
+   <div class="container_menu">
+      <a href="https://flexbox.malven.co/">Flexbox.malven.co</a>
+      <a href="https://platform.mobydev.kz/my-courses/15/lessons/274">Mobydev.kz</a>
+      <a href="https://docs.google.com/presentation/d/1D_yPh51Nkh4QRYIABNl2Al7mv0B-5m1eiWgMdeAPEMg/edit#slide=id.g2ec3b35344b_0_433">Google presentation</a>
+   </div>
+   <br>
+<!-- Задание 8: Галерея карточек
+Создайте простую галерею карточек, используя Flexbox, где все карточки будут выровнены по сетке.
+   1. Создайте контейнер для галереи и несколько карточек внутри него.
+   2. Используйте Flexbox, чтобы разместить карточки в несколько колонок и равномерно распределить их по ширине контейнера.
+   3. Реализуйте галерею с несколькими карточками. Попробуйте изменить значение свойства `flex` и используйте свойства `flex-grow`, `flex-shrink`, и `flex-basis` для изменения размера карточек. -->
+   <div class="container_gallery">
+      <div class="card">
+         <img src="https://restoran.kz/neofiles/serve-image/624ae1274bf42b00070c6c90" alt="bahandi burger">
+         <p>Text</p>
+      </div>
+      <div class="card">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFTPDD-Jb1TRxn-jw5ymFwY9DU-z77km2rKuzHARaN-MeqX389VHvRjGqWgyvLLFI5yxs&usqp=CAU" alt="bahandi burger">
+         <p>Text</p>
+      </div>
+      <div class="card">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWpfvi9r6MyK8QOJAFK7Khazn8QRf_Y3ao4bLM7MISHNbH5ENLlVCgp1yhY_WHJ_TEdKY&usqp=CAU" alt="bahandi burger">
+         <p>Text</p>
+      </div>
+   </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+/*1 ex*/
+.container1{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    display: block;
+}
+
+.container2{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    display: inline;
+}
+
+.container3{
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+/*2 ex*/ 
+.container4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(209, 180, 237);
+    display: flex;
+    flex-flow: column wrap;
+}
+
+/*3 ex*/
+.block1{
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+}
+
+.block2{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(20, 83, 138);
+}
+
+.block3{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(92, 149, 42);
+}
+
+/*4 ex*/
+.container5{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(174, 198, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.block4{
+    width: 80px;
+    height: 60px;
+    background-color: rgb(171, 159, 119);
+}
+
+.block5{
+    width: 80px;
+    height: 60px;
+    background-color: rgb(171, 159, 119);
+}
+
+.block6{
+    width: 80px;
+    height: 60px;
+    background-color: rgb(171, 159, 119);
+}
+
+/*5 ex*/
+.container6{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(143, 199, 225);
+    display: flex;
+}
+
+.block7{
+    background-color: rgb(154, 170, 154);
+    flex: 1 1 50px;
+}
+
+.block8{
+    background-color: rgb(157, 196, 175);
+    flex: 1 1 80px;
+}
+
+.block9{
+    background-color: rgb(60, 50, 17);
+    flex: 0.5 1 70px;
+}
+
+/*6 ex*/
+.container7{
+    width: 500px;
+    height: 200px;
+    background-color: rgb(143, 199, 225);
+    display: flex;
+}
+
+.block10{
+    background-color: rgb(154, 170, 154);
+    flex-basis: 50%;
+}
+
+.block11{
+    background-color: rgb(157, 196, 175);
+    flex-grow: 1;
+}
+
+.block12{
+    background-color: rgb(60, 50, 17);
+    flex-basis: 100px;
+}
+
+/*7 ex*/
+.container_menu{
+    background-color: rgb(31, 31, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_menu a{
+    text-decoration: none; 
+    color: white;
+    margin: 20px;
+}
+
+/*8 ex */
+.container_gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    flex: 1 1 100px;
+}
